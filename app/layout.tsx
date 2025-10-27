@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://res.cloudinary.com/dpufemrnq/image/upload/v1761554804/seo_nnutqo.png",
+        url: "https://res.cloudinary.com/dpufemrnq/image/upload/v1761571992/IMG_0458_ycuhxz.jpg",
         width: 1200,
         height: 630,
         alt: "THƯ MỜI CƯỚI VĂN DUẨN & PHƯƠNG THANH",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "THƯ MỜI CƯỚI VĂN DUẨN & PHƯƠNG THANH",
-    images: ["https://res.cloudinary.com/dpufemrnq/image/upload/v1761554804/seo_nnutqo.png"],
+    images: ["https://res.cloudinary.com/dpufemrnq/image/upload/v1761571992/IMG_0458_ycuhxz.jpg"],
   },
 
   alternates: {
