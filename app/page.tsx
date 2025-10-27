@@ -70,10 +70,10 @@ export default function Page() {
         title="Đặng Duẩn & Phương Thanh"
         invitation={{
           weddingInviteText: "THƯ MỜI TIỆC CƯỚI",
-          saturdayTime: "THỨ BẢY - 18:00",
-          saturdayDate: "05 . 04 . 2026",
-          sundayTime: "CHỦ NHẬT - 11:45",
-          sundayDate: "06 . 04 . 2026",
+          saturdayTime: "THỨ SÁU - 10:00",
+          saturdayDate: "07 . 11 . 2025",
+          sundayTime: "Thứ BẢY - 14:00",
+          sundayDate: "08 . 11 . 2025",
           ceremonyText: "LỄ THÀNH HÔN",
         }}
         autoplay={3000}
@@ -93,12 +93,12 @@ export default function Page() {
         groom={{
           role: "Chú Rể",
           name: "Đặng Duẩn",
-          address: "Số 10 Trần Nhân Tông, Quảng Cư, Sầm Sơn, Thanh Hoá",
+          address: "Sân bóng đoàn thuyền, Thanh Ấm, Vân Đình, Ứng Hòa, Hà Nội",
         }}
         bride={{
           role: "Cô Dâu",
           name: "Phương Thanh",
-          address: "Đội 8, Rừng Thông, Xã Thiện Phiến, Thanh Hoá",
+          address: "Đội 3, Tử Dương, Cao Thành, Ứng Hòa, Hà Nội",
         }}
       />
 
@@ -115,24 +115,24 @@ export default function Page() {
         }}
         events={[
           {
-            title: "LỄ THÀNH HÔN NHÀ GÁI",
-            dayOfWeek: "Thứ Bảy",
-            time: "08:30 AM",
-            weddingDate: "23-11-2025",
-            lunarDate: "Ngày 23 tháng 10 năm Ất Tỵ",
-            locationName: "Tư Gia Nhà Gái",
-            address: "123 Đường Hoa Hồng, Quận 1, TP. Hồ Chí Minh",
-            mapCoords: { lat: 10.7769, lng: 106.7009 },
+            title: "TIỆC CƯỚI NHÀ TRAI",
+            dayOfWeek: "Thứ Bẩy",
+            time: "10:00 AM",
+            weddingDate: "08-11-2025",
+            lunarDate: "Tức ngày 19 tháng 9 năm Ất Tỵ",
+            locationName: "Tư Gia Nhà Trai",
+            address: "Sân bóng đoàn thuyền, Thanh Ấm, Vân Đình, Ứng Hòa, Hà Nội",
+            mapCoords: { lat: 20.7375, lng: 105.7545 },
           },
           {
-            title: "TIỆC CƯỚI NHÀ TRAI",
-            dayOfWeek: "Chủ Nhật",
-            time: "11:00 AM",
-            weddingDate: "24-11-2025",
-            lunarDate: "Ngày 23 tháng 10 năm Ất Tỵ",
-            locationName: "Nhà Hàng Diamond Palace",
-            address: "456 Lê Lợi, Quận 3, TP. Hồ Chí Minh",
-            mapCoords: { lat: 10.7845, lng: 106.695 },
+            title: "TIỆC CƯỚI NHÀ GÁI",
+            dayOfWeek: "Thứ Bẩy",
+            time: "10:00 AM",
+            weddingDate: "08-11-2025",
+            lunarDate: "Tức ngày 19 tháng 9 năm Ất Tỵ",
+            locationName: "Tư Gia Nhà Gái",
+            address: "Đội 3, Tử Dương, Cao Thành, Ứng Hòa, Hà Nội",
+            mapCoords: { lat: 20.77004674066504, lng: 105.73100312319009 },
           },
         ]}
         textSettings={{
@@ -149,29 +149,29 @@ export default function Page() {
       <Section4
         firstCeremony={{
           title: "LỄ THÀNH HÔN",
-          time: "Vào Chủ Nhật - 11:45",
-          month: "Tháng 4",
-          day: "06",
-          year: "2026",
-          lunarDate: "(Tức ngày 08 Tháng 03 Năm Bính Ngọ)",
+          time: "Vào Thứ bảy - 14:00",
+          month: "Tháng 11",
+          day: "08",
+          year: "2025",
+          lunarDate: "(Tức ngày 19 tháng 9 năm Ất Tỵ)",
         }}
         secondCeremony={{
           title: "LỄ RƯỚC DÂU",
-          time: "Vào Chủ Nhật - 11:00",
-          month: "Tháng 4",
-          day: "06",
-          year: "2026",
-          lunarDate: "(Tức ngày 08 Tháng 03 Năm Bính Ngọ)",
+          time: "Vào Chủ Nhật - 13:00",
+          month: "Tháng 11",
+          day: "08",
+          year: "2025",
+          lunarDate: "(Tức ngày 19 tháng 9 năm Ất Tỵ)",
         }}
       />
 
       <Section5
         monthTitle="THÁNG 11 - 2025"
-        primaryDate="2025-11-29"
-        secondaryDate="2025-11-28"
-        countdownTarget="2025-11-28T18:00:00"
-        eventStart="2025-11-28T18:00:00"
-        eventEnd="2025-11-29T12:00:00"
+        primaryDate="2025-11-08"
+        secondaryDate="2025-11-09"
+        countdownTarget="2025-11-08T18:00:00"
+        eventStart="2025-11-08T18:00:00"
+        eventEnd="2025-11-09T12:00:00"
       />
 
       <Section7
