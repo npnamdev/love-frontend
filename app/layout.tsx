@@ -6,29 +6,29 @@ export const metadata: Metadata = {
   title: "THƯ MỜI CƯỚI ĐẶNG DUẨN & PHƯƠNG THANH",
   openGraph: {
     title: "THƯ MỜI CƯỚI ĐẶNG DUẨN & PHƯƠNG THANH",
-    url: "https://lovenote-frontend-mky6.vercel.app",
+    url: "https://duanthanh.wedly.info",
     type: "website",
     images: [
       {
         url: "https://res.cloudinary.com/dpufemrnq/image/upload/v1761554804/seo_nnutqo.png",
         width: 1200,
         height: 630,
-        alt: "THƯ MỜI CƯỚI ĐẶNG DUẨN & PHƯƠNG THANH",
+        alt: "THƯ MỜI CƯỚI VĂN DUẨN & PHƯƠNG THANH",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "THƯ MỜI CƯỚI ĐẶNG DUẨN & PHƯƠNG THANH",
+    title: "THƯ MỜI CƯỚI VĂN DUẨN & PHƯƠNG THANH",
     images: ["https://res.cloudinary.com/dpufemrnq/image/upload/v1761554804/seo_nnutqo.png"],
   },
 
   alternates: {
-    canonical: "https://lovenote-frontend-mky6.vercel.app",
+    canonical: "https://duanthanh.wedly.info",
   },
 
-  metadataBase: new URL("https://lovenote-frontend-mky6.vercel.app"),
+  metadataBase: new URL("https://duanthanh.wedly.info"),
 };
 
 
