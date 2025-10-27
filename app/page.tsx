@@ -67,12 +67,12 @@ export default function Page() {
           { imageUrl: "https://res.cloudinary.com/dpufemrnq/image/upload/v1761556617/DSC06211__2_zchfsb.jpg" },
           { imageUrl: "https://res.cloudinary.com/dpufemrnq/image/upload/v1761556617/DSC06216__2_py0e0z.jpg" },
         ]}
-        title="Đặng Duẩn & Phương Thanh"
+        title="Văn Duẩn & Phương Thanh"
         invitation={{
           weddingInviteText: "THƯ MỜI TIỆC CƯỚI",
-          saturdayTime: "THỨ SÁU - 10:00",
+          saturdayTime: "THỨ SÁU",
           saturdayDate: "07 . 11 . 2025",
-          sundayTime: "Thứ BẢY - 14:00",
+          sundayTime: "Thứ BẢY",
           sundayDate: "08 . 11 . 2025",
           ceremonyText: "LỄ THÀNH HÔN",
         }}
@@ -92,8 +92,8 @@ export default function Page() {
         ]}
         groom={{
           role: "Chú Rể",
-          name: "Đặng Duẩn",
-          address: "Sân bóng đoàn thuyền, Thanh Ấm, Vân Đình, Ứng Hòa, Hà Nội",
+          name: "Văn Duẩn",
+          address: "Sân bóng Đoàn Thuyền,Vân Đình, Ứng Hòa, Hà Nội",
         }}
         bride={{
           role: "Cô Dâu",
@@ -106,7 +106,7 @@ export default function Page() {
         invitation={{
           title: "Thư Mời",
           subtitle: "Bạn và Người thương",
-          mainText: "THAM DỰ LỄ CƯỚI ĐẶNG DUẨN & PHƯƠNG THANH",
+          mainText: "THAM DỰ LỄ CƯỚI VĂN DUẨN & PHƯƠNG THANH",
           images: [
             "https://res.cloudinary.com/dpufemrnq/image/upload/v1761556620/DSC06496__2_i6p8ok.jpg",
             "https://res.cloudinary.com/dpufemrnq/image/upload/v1761556618/DSC06269__2_rari71.jpg",
@@ -116,18 +116,18 @@ export default function Page() {
         events={[
           {
             title: "TIỆC CƯỚI NHÀ TRAI",
-            dayOfWeek: "Thứ Bẩy",
-            time: "10:00 AM",
+            dayOfWeek: "Thứ Bảy",
+            time: "10:00",
             weddingDate: "08-11-2025",
             lunarDate: "Tức ngày 19 tháng 9 năm Ất Tỵ",
             locationName: "Tư Gia Nhà Trai",
-            address: "Sân bóng đoàn thuyền, Thanh Ấm, Vân Đình, Ứng Hòa, Hà Nội",
+            address: "Sân bóng đoàn thuyền, Vân Đình, Ứng Hòa, Hà Nội",
             mapCoords: { lat: 20.7375, lng: 105.7545 },
           },
           {
             title: "TIỆC CƯỚI NHÀ GÁI",
-            dayOfWeek: "Thứ Bẩy",
-            time: "10:00 AM",
+            dayOfWeek: "Thứ Bảy",
+            time: "10:00",
             weddingDate: "08-11-2025",
             lunarDate: "Tức ngày 19 tháng 9 năm Ất Tỵ",
             locationName: "Tư Gia Nhà Gái",
@@ -168,7 +168,7 @@ export default function Page() {
       <Section5
         monthTitle="THÁNG 11 - 2025"
         primaryDate="2025-11-08"
-        secondaryDate="2025-11-09"
+        secondaryDate="2025-11-07"
         countdownTarget="2025-11-08T18:00:00"
         eventStart="2025-11-08T18:00:00"
         eventEnd="2025-11-09T12:00:00"
