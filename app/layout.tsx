@@ -3,33 +3,34 @@ import "./globals.css";
 import { Toaster } from "@/components/ui/sonner";
 
 export const metadata: Metadata = {
-  title: "THƯ MỜI CƯỚI DUY KHÁNH & MINH CHÂU",
+  title: "THƯ MỜI CƯỚI ĐẶNG DUẨN & PHƯƠNG THANH",
   openGraph: {
-    title: "THƯ MỜI CƯỚI DUY KHÁNH & MINH CHÂU",
-    url: "https://khanhchau.site",
+    title: "THƯ MỜI CƯỚI ĐẶNG DUẨN & PHƯƠNG THANH",
+    url: "https://lovenote-frontend-mky6.vercel.app",
     type: "website",
     images: [
       {
-        url: "https://res.cloudinary.com/dpufemrnq/image/upload/v1761127461/demo/1.jpg.jpg",
+        url: "https://res.cloudinary.com/dpufemrnq/image/upload/v1761554804/seo_nnutqo.png",
         width: 1200,
         height: 630,
-        alt: "THƯ MỜI CƯỚI DUY KHÁNH & MINH CHÂU",
+        alt: "THƯ MỜI CƯỚI ĐẶNG DUẨN & PHƯƠNG THANH",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "THƯ MỜI CƯỚI DUY KHÁNH & MINH CHÂU",
-    images: ["https://res.cloudinary.com/dpufemrnq/image/upload/v1761127461/demo/1.jpg.jpg"],
+    title: "THƯ MỜI CƯỚI ĐẶNG DUẨN & PHƯƠNG THANH",
+    images: ["https://res.cloudinary.com/dpufemrnq/image/upload/v1761554804/seo_nnutqo.png"],
   },
 
   alternates: {
-    canonical: "https://wedding-invitation-card-ctzi.vercel.app",
+    canonical: "https://lovenote-frontend-mky6.vercel.app",
   },
 
-  metadataBase: new URL("https://wedding-invitation-card-ctzi.vercel.app"),
+  metadataBase: new URL("https://lovenote-frontend-mky6.vercel.app"),
 };
+
 
 export const viewport: Viewport = {
   width: "device-width",

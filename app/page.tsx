@@ -44,13 +44,13 @@ export default function Page() {
         setOpen={setOpen}
         initialTab={initialTab}
         groomInfo={{
-          qrUrl: "https://img.vietqr.io/image/MB-9704222268-compact2.png",
+          qrUrl: "https://res.cloudinary.com/dpufemrnq/image/upload/v1761554803/2_xo9azf.png",
           bankName: "MB Bank",
           accountName: "NGUYEN VAN NAM",
           accountNumber: "9704222268",
         }}
         brideInfo={{
-          qrUrl: "https://img.vietqr.io/image/ACB-1234567890-compact2.png",
+          qrUrl: "https://res.cloudinary.com/dpufemrnq/image/upload/v1761554803/1_jgnowe.png",
           bankName: "ACB Bank",
           accountName: "TRAN THI THAO",
           accountNumber: "1234567890",
@@ -58,15 +58,16 @@ export default function Page() {
       />
 
       <Snowfall />
+
       <MusicFloatingButton />
 
       <Section1
         slides={[
-          { imageUrl: "https://s3-hcm-r2.s3cloud.vn/thiepcuoi-mehappy/admin/assets/4225f5f8-932a-4c8a-99b5-d00d61308c8a.webp" },
-          { imageUrl: "https://s3-hcm-r2.s3cloud.vn/thiepcuoi-mehappy/admin/assets/26af4d86-620c-4fe5-8817-3b0daa1bc239.webp" },
-          { imageUrl: "https://s3-hcm-r2.s3cloud.vn/thiepcuoi-mehappy/admin/assets/bf5d6cd3-b372-4de3-be9d-0aa50fc1d9f2.webp" },
+          { imageUrl: "https://res.cloudinary.com/dpufemrnq/image/upload/v1761556616/DSC06095__2_qmvtnu.jpg" },
+          { imageUrl: "https://res.cloudinary.com/dpufemrnq/image/upload/v1761556617/DSC06211__2_zchfsb.jpg" },
+          { imageUrl: "https://res.cloudinary.com/dpufemrnq/image/upload/v1761556617/DSC06216__2_py0e0z.jpg" },
         ]}
-        title="Duy Khánh & Minh Châu"
+        title="Đặng Duẩn & Phương Thanh"
         invitation={{
           weddingInviteText: "THƯ MỜI TIỆC CƯỚI",
           saturdayTime: "THỨ BẢY - 18:00",
@@ -86,17 +87,17 @@ export default function Page() {
           </>
         }
         galleryImages={[
-          "https://s3-hcm-r2.s3cloud.vn/thiepcuoi-mehappy/admin/assets/77501014-78c3-4f0e-a2fc-25f01f7b6452.webp",
-          "https://s3-hcm-r2.s3cloud.vn/thiepcuoi-mehappy/admin/assets/997031a1-7a3b-4e7b-aca0-2115c9917c7c.webp",
+          "https://res.cloudinary.com/dpufemrnq/image/upload/v1761556507/DSC06434__2_r8vsdh.jpg",
+          "https://res.cloudinary.com/dpufemrnq/image/upload/v1761556617/DSC06252__2_mw957e.jpg",
         ]}
         groom={{
           role: "Chú Rể",
-          name: "Duy Khánh",
+          name: "Đặng Duẩn",
           address: "Số 10 Trần Nhân Tông, Quảng Cư, Sầm Sơn, Thanh Hoá",
         }}
         bride={{
           role: "Cô Dâu",
-          name: "Minh Châu",
+          name: "Phương Thanh",
           address: "Đội 8, Rừng Thông, Xã Thiện Phiến, Thanh Hoá",
         }}
       />
@@ -105,11 +106,11 @@ export default function Page() {
         invitation={{
           title: "Thư Mời",
           subtitle: "Bạn và Người thương",
-          mainText: "THAM DỰ LỄ CƯỚI DUY KHÁNH & MINH CHÂU",
+          mainText: "THAM DỰ LỄ CƯỚI ĐẶNG DUẨN & PHƯƠNG THANH",
           images: [
-            "https://s3-hcm-r2.s3cloud.vn/thiepcuoi-mehappy/admin/assets/a619703f-e248-4258-a0e0-77a289ed73fa.webp",
-            "https://s3-hcm-r2.s3cloud.vn/thiepcuoi-mehappy/admin/assets/4225f5f8-932a-4c8a-99b5-d00d61308c8a.webp",
-            "https://s3-hcm-r2.s3cloud.vn/thiepcuoi-mehappy/admin/assets/dd4a782a-cb2a-4d6f-b194-bcf2815bb54c.webp",
+            "https://res.cloudinary.com/dpufemrnq/image/upload/v1761556620/DSC06496__2_i6p8ok.jpg",
+            "https://res.cloudinary.com/dpufemrnq/image/upload/v1761556618/DSC06269__2_rari71.jpg",
+            "https://res.cloudinary.com/dpufemrnq/image/upload/v1761556619/DSC06393__2_cvoqxb.jpg",
           ],
         }}
         events={[
@@ -178,17 +179,17 @@ export default function Page() {
         description="Khoảnh khắc yêu thương của chúng tôi."
         borderRadius={12}
         column1={[
-          { src: "https://s3-hcm-r2.s3cloud.vn/thiepcuoi-mehappy/admin/assets/26af4d86-620c-4fe5-8817-3b0daa1bc239.webp", height: 270 },
-          { src: "https://s3-hcm-r2.s3cloud.vn/thiepcuoi-mehappy/admin/assets/26af4d86-620c-4fe5-8817-3b0daa1bc239.webp", height: 270 },
-          { src: "https://s3-hcm-r2.s3cloud.vn/thiepcuoi-mehappy/admin/assets/4225f5f8-932a-4c8a-99b5-d00d61308c8a.webp", height: 270 },
-          { src: "https://s3-hcm-r2.s3cloud.vn/thiepcuoi-mehappy/admin/assets/e489a219-2df3-409e-bb23-304abd03318f.webp", height: 270 },
+          { src: "https://res.cloudinary.com/dpufemrnq/image/upload/v1761555512/demo/seo.png.png", height: 270 },
+          { src: "https://res.cloudinary.com/dpufemrnq/image/upload/v1761556507/DSC06569__2_wvi9zg.jpg", height: 270 },
+          { src: "https://res.cloudinary.com/dpufemrnq/image/upload/v1761556616/DSC06095__2_qmvtnu.jpg", height: 270 },
+          { src: "https://res.cloudinary.com/dpufemrnq/image/upload/v1761556507/DSC06520__2_b2x9xp.jpg", height: 270 },
         ]}
         column2={[
-          { src: "https://s3-hcm-r2.s3cloud.vn/thiepcuoi-mehappy/admin/assets/a619703f-e248-4258-a0e0-77a289ed73fa.webp", height: 180 },
-          { src: "https://s3-hcm-r2.s3cloud.vn/thiepcuoi-mehappy/admin/assets/21895e2b-b3dd-4e4e-bab6-8980cbc6b131.webp", height: 180 },
-          { src: "https://s3-hcm-r2.s3cloud.vn/thiepcuoi-mehappy/admin/assets/27bfd4fa-46bf-4a84-8463-eb1f5e8f7563.webp", height: 270 },
-          { src: "https://s3-hcm-r2.s3cloud.vn/thiepcuoi-mehappy/admin/assets/6e884791-e1cb-4e43-b8b1-f1e37f423199.webp", height: 270 },
-          { src: "https://s3-hcm-r2.s3cloud.vn/thiepcuoi-mehappy/admin/assets/69bf4561-0e51-47ea-bb0f-061eeac87a42.webp", height: 170 },
+          { src: "https://res.cloudinary.com/dpufemrnq/image/upload/v1761556617/DSC06216__2_py0e0z.jpg", height: 180 },
+          { src: "https://res.cloudinary.com/dpufemrnq/image/upload/v1761556618/DSC06269__2_rari71.jpg", height: 180 },
+          { src: "https://res.cloudinary.com/dpufemrnq/image/upload/v1761556619/DSC06354__2_qbipsg.jpg", height: 270 },
+          { src: "https://res.cloudinary.com/dpufemrnq/image/upload/v1761556507/DSC06539__2_twyjxb.jpg", height: 270 },
+          { src: "https://res.cloudinary.com/dpufemrnq/image/upload/v1761556619/DSC06393__2_cvoqxb.jpg", height: 170 },
         ]}
       />
 
@@ -209,7 +210,7 @@ export default function Page() {
 
 
       <Section9
-        backgroundImage="https://s3-hcm-r2.s3cloud.vn/thiepcuoi-mehappy/admin/assets/dd4a782a-cb2a-4d6f-b194-bcf2815bb54c.webp"
+        backgroundImage="https://res.cloudinary.com/dpufemrnq/image/upload/v1761556616/DSC06095__2_qmvtnu.jpg"
         bottomText="Rất hân hạnh được đón tiếp!"
       />
     </div>
