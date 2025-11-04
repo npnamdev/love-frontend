@@ -157,7 +157,7 @@ export default function Page() {
         }}
         secondCeremony={{
           title: "LỄ RƯỚC DÂU",
-          time: "Vào Chủ Nhật - 13:00",
+          time: "Vào Thứ Bảy - 13:00",
           month: "Tháng 11",
           day: "08",
           year: "2025",
